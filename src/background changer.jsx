@@ -25,6 +25,11 @@ function BackgroundColor()
         </button>
         <button className="outline-none px-4 py-1 rounded-full text-white shadow-lg" 
         style={{backgroundColor: "blue"}}  onClick={()=>setColor("blue")}>Blue</button>
+         <button className="outline-none px-4 py-1 rounded-full text-black shadow-lg" 
+        style={{backgroundColor: "Orange"}}  onClick={()=>setColor("Orange")}>Orange</button>
+         <button className="outline-none px-4 py-1 rounded-full text-black shadow-lg" 
+        style={{backgroundColor: "Pink"}}  onClick={()=>setColor("Pink")}>Pink</button>
+
          </div>
       </div>
     </div>

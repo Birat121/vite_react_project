@@ -1,13 +1,17 @@
-import BackgroundColor from "./background changer";
+//import BackgroundColor from "./background changer";
+import "./App.css";
+import PassGenerator from "./passwordgenerator";
 
 
 
-function App() {
-  
-  
-
+function App()
+{
   return (
-    <BackgroundColor/>
+  <>
+    <PassGenerator/>
+    
+    
+  </>
   );
 }
 
